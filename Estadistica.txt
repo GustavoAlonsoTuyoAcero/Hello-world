@@ -1,0 +1,35 @@
+ARQUITECTURA DE MICROSERVICIOS
+Tradicionalmente el diseño de software se ha realizado con arquitectura monolítica, en la que el software se estructura de forma que todos los aspectos funcionales quedan acoplados y sujetos en un mismo programa. En este tipo de sistema, toda la información está alojada en un servidor, por lo que no hay separación entre módulos y las diferentes partes de un programa están muy acopladas. Esto genera un problema a largo plazo, ya que se trata de un sistema no escalable de manera sencilla. Por eso aparece la arquitectura de microservicios.
+
+Detectada la necesidad por parte de las empresas de realizar cambios en el software e implementarlos de forma fácil y rápida, nacen los microservicios. La idea era dividir los sistemas en partes individuales, permitiendo que se puedan tratar y abordar los problemas de manera independiente sin afectar al resto.
+
+Así, mientras que en una arquitectura monolítica el software se desarrolla como una única unidad, una arquitectura de microservicios funciona con un conjunto de pequeños servicios que se ejecutan de manera autónoma e independiente.
+
+La arquitectura de microservicios es un método de desarrollo de aplicaciones software que funciona como un conjunto de pequeños servicios que se ejecutan de manera independiente y autónoma, proporcionando una funcionalidad de negocio completa. En ella, cada microservicio es un código que puede estar en un lenguaje de programación diferente, y que desempeña una función específica. Los microservicios se comunican entre sí a través de APIs, y cuentan con sistemas de almacenamiento propios, lo que evita la sobrecarga y caída de la aplicación.
+
+Los microservicios han creado infraestructuras IT más adaptables y flexibles. Porque si se quiere modificar solamente un servicio, no es necesario alterar el resto de la infraestructura. Cada uno de los servicios se puede desplegar y modificar sin que ello afecte a otros servicios o aspectos funcionales de la aplicación.
+
+CONTENEDORES
+Los microservicios están íntimamente ligados al concepto de contenedores. Esto sucede en la medida que los contenedores permiten empaquetar todo lo necesario para que un servicio se ejecute de manera encapsulada dentro de una sola imagen completamente independiente del servidor anfitrión. Es decir, aseguran la disponibilidad del servicio sin importar el sistema operativo en el que este alojado.
+A grandes rasgos, los contenedores reúnen todos aquellos recursos que una aplicación necesita para ser ejecutada con éxito, de manera que al ser transportada a otra máquina pueda seguir funcionando correctamente. En este sentido, podemos afirmar que su principal finalidad es fomentar su ligereza y portabilidad para que puedan transferirse entre diferentes entornos en el menor tiempo posible.
+
+KUBERNETES
+
+Kubernetes está siendo la plataforma de preferencia para manejar, escalar y realizar deploy de las aplicaciones empaquetadas en contenedores como Docker.
+
+Nos permite realizar la orquestación de diferentes contenedores pudiendo crear copias de uno o varios contenedores haciendo más fácil escalar nuestra aplicación, puede eliminar los contenedores que están fallando y crear nuevos para que nuestros servidores tengan la misma posibilidad de máquinas disponible.
+
+AZURE KUBERNETES SERVICE 
+Azure Kubernetes Service es un servicio de Azure para administrar y operar contenedores orquestados sobre Kubernetes, que simplifica la implementación, la administración y el uso de Kubernetes como un servicio orquestador de contenedores totalmente administrado.
+
+1. ¿Cuántas parejas se pueden elegir de 4 hombres y 6 mujeres si cierto varon rehusa tener como pareja a dos de las mujeres?
+2. En una producción de 10,000 artículos , 1,000 de estos pueden tener al menos uno de 3 tipos de defectos A, B y C de la siguiente manera 650 de A, 372 de B, 590 de C, 166 de A y B y C, 126 de B y C. Si un artículo de esta producción es elegido al azar, calcular la probabilidad de que tenga. a) los 3 tipos defectos, b) solo un tipo de defectos.
+3. Un experimento se realiza tantas veces en forma independiente hasta obtener el primer exito. Suponga que en cada intento la probabilidad de que se tenga éxito es de 0,95 si se siguen correctamente las intrucciones; y es de 0.20 si no se siguen correctamente las intrucciones. Calcular la probabilidad de alcanzar el éxito en tre intentos a lo más. 
+a) si se siguen correctamente las intrucciones cada vez.
+b) si no se siguen correctamente las intrucciones cada vez. 
+4. Un juego consiste en sacar una bola al azar sucesivamente y sin repetición de una urna que contiene cuatro bolas rojas y tres bolas blancas. Ud. pierde el juego si cada un bola roja. 
+¿En cuántos intentos promedio pierde el juego?
+5. En una producción, la probabilidad de que un objeto sea defectuoso es 0.2. Si en una muestra de n de tales objetos escogidos al azar uno por uno, se espera que haya uno defectuoso, a) calcular la probabilidad de que haya un objeto defectuoso. b) ¿cuántos objetos defectuoso es más probable que ocurra?
+6. Una pequeña ciudad es abastecida de agua cada dos días. El consumo de volumen de agua(cada dos días) tiene distrubción normal.
+a) Determine la media y varianza de la distribución si se sabe que el 0.62% del consumo es al menos 22,500 litros y que el 1.79% del consumo es a lo más 17,900 litros.
+b) Hallar la capacidad del tanque de agua de la pequeña ciudad para que sea sólo el 0.01 la probabilidad de que en el periodo de dos días el agua no sea suficiente para satisfacer toda la demanda.
